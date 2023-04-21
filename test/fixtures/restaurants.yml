@@ -1,0 +1,9 @@
+# restaurantvalid:
+#   name: "valid restaurant"
+#   user: uservalid
+
+<% 1.upto(5) do |i| %>
+restaurant_<%= i %>:
+  name: <%= Faker::Company.name %>
+  user: uservalid
+<% end %>
